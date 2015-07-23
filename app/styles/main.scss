@@ -23,3 +23,9 @@
 .nav-item {
   display: inline-block;
 }
+
+@media (min-width: $tiny-screen + 1) {
+  .nav-item {
+    display: block;
+  }
+}
