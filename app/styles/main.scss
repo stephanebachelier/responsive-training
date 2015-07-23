@@ -4,12 +4,12 @@
 
 @media (min-width: ($tiny-screen + 1)) and (max-width: $small-screen)  {
   .small-w15 {
-    background-color: red;
+    width: 15% !important;
   }
 }
 
 @media (min-width: ($small-screen + 1)) and (max-width: $medium-screen)  {
   .medium-w15 {
-    background-color: red;
+    width: 15% !important;
   }
 }
