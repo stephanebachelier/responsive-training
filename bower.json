@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "knacss": "~4.3.2"
+    "knacss": "~4.3.2",
+    "font-awesome": "~4.3.0"
   }
 }
