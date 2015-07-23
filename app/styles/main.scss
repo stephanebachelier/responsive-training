@@ -2,6 +2,12 @@
 // endbower
 @import 'knacss/sass/knacss';
 
+@media (max-width: $tiny-screen) {
+  .tiny-w20 {
+    width: 20% !important;
+  }
+}
+
 @media (min-width: ($tiny-screen + 1)) and (max-width: $small-screen)  {
   .small-w15 {
     width: 15% !important;
@@ -15,5 +21,5 @@
 }
 
 .nav-item {
-  display: inline;
+  display: inline-block;
 }
