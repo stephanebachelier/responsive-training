@@ -17,9 +17,6 @@
     "tests"
   ],
   "dependencies": {
-  },
-  "devDependencies": {
-    "bourbon": "~4.2.3",
-    "neat": "~1.7.2"
+    "knacss": "~4.3.2"
   }
 }
