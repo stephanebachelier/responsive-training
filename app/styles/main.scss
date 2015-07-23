@@ -21,15 +21,35 @@
 }
 
 .nav-item {
-  display: inline-block;
-  
   a {
     display: block;
   }
 }
 
-@media (min-width: $tiny-screen + 1) {
+@media (max-width: $tiny-screen) {
+  .nav-item {
+    display: inline-block;
+    
+    .fa {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $tiny-screen + 1) and (max-width: $large-screen){
   .nav-item {
     display: block;
+    
+    .fa {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: $large-screen + 1){
+  .nav-item {
+    .fa {
+      display: inline;
+    }
   }
 }
